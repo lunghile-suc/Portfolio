@@ -1,0 +1,20 @@
+$primary-color: #0070f3;
+$secondary-color: #1173EF;
+$third-color: #11B6EF;
+$fourth-color: #F2F2F2;
+
+:export {
+    primaryColor: $primary-color;
+}
+
+:export {
+    secondaryColor: $secondary-color;
+}
+
+:export {
+    thirdColor: $third-color;
+}
+
+:export {
+    fourthColor: $fourth-color;
+}

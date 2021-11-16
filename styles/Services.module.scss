@@ -1,0 +1,64 @@
+@import 'mixins';
+
+.servicesSection{
+    position: relative;
+    padding: 3rem 0;
+    background-image: linear-gradient(to top left, #1173EF , #11B6EF);
+}
+
+.items{
+    display: grid;
+    align-items: center;
+    grid-gap: 1rem;
+    margin-bottom: 3rem;
+
+    @include mediaQuery(720px){
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.servicesContent{
+    position: relative;
+    margin: 2rem 0;
+
+    h3{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 7rem;
+        font-size: 1.8rem;
+    }
+}
+
+.servicesCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+.servicesCard{
+    background-color: #F2F2F2;
+    padding: 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+    div:first-child{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1rem;
+        color: #1c1d1f;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        color: #1c1d1f;
+        font-size: 0.8rem;
+    }
+}
