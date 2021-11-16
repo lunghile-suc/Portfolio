@@ -24,7 +24,7 @@ const Services = () => {
                     {services.servicesInfo.map((info, i) => {
                         return (
                             <div key={i} className={style.servicesCard}>
-                                <div><img src={info.image} className={style.Image}></img></div>
+                                <div><img src={info.image} alt="" className={style.Image}></img></div>
                                 <div>
                                     <h1>{info.title}</h1>
                                     <p>{info.description}</p>

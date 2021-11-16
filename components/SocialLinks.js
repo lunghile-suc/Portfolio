@@ -12,7 +12,7 @@ const SocialLinks = () => {
             <div className="container">
                 <div className={style.socialItems}>
                     <div className={style.socialContent}>
-                        <h1 className={style.sectionTitle}>Let's Connect</h1>
+                        <h1 className={style.sectionTitle}>Lets Connect</h1>
                         <p>I am always looking to make new friends, so if you want to discuss an exciting project or you just want to say Hi!, My inbox is always open</p>
                         <a href="mailto:Lunghilesuccess1@gmail.com" className={style.c_Icon}><FaEnvelope className={style.icon} />Lunghilesuccess1@gmail.com</a>
                         <a href="tel:0784529530" className={style.c_Icon}><FaPhoneAlt className={style.icon} />078 452 9530</a>

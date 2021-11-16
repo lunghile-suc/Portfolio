@@ -22,7 +22,7 @@ const Greetings = () => {
                         <button>Resume</button>
                     </div>
                     <div className={style.heroImg}>
-                        <img src='/images/heroImage.svg'></img>
+                        <img src='/images/heroImage.svg' alt="hero-image"></img>
                     </div>
                 </div>
             </div>

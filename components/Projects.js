@@ -13,9 +13,9 @@ const Projects = () => {
                 <div className={style.projectsCards}>
                     {projects.projectsInfo.slice(0, 3).map((info, i) => {
                         return (
-                            <a href="" target="_blank">
+                            <a href="" target="_blank" key={i}>
                                 <div className={style.projectCard}>
-                                    <img src={info.image}></img>
+                                    <img src={info.image} alt="project-img"></img>
                                     <div className={style.cardContent}>
                                         <div className={style.overlay}></div>
                                         <h1>{info.title}</h1>
