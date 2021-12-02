@@ -65,7 +65,8 @@
         letter-spacing: 2px;
     }
 
-    button{
+    a{
+        display: inline-block;
         padding: .5rem 1.5rem;
         margin: 1rem 0;
         font-size: 1rem;
@@ -76,6 +77,11 @@
         outline: none;
         cursor: pointer;
         letter-spacing: 1px;
+
+        &:hover{
+            color: #f2f2f2;
+            background-color: #1173EF;
+        }
     }
 }
 

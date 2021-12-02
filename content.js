@@ -36,19 +36,22 @@ export const projects = {
     title: 'My Work',
     projectsInfo: [
         {
-            image: '/images/projectImg-1.jpg',
-            title: 'Food Ordering Website',
-            description: 'HTML5, CSS3, Sass, Javascript, JQuery, PHP'
+            image: '/images/feliciano.jpg',
+            title: 'Rastuarant Website',
+            description: 'HTML5, CSS3, Javascript, JQuery',
+            link: 'https://peaceful-kirch-6a1428.netlify.app/'
         },
         {
-            image: '/images/projectImg-1.jpg',
+            image: '/images/local_home_page.jpg',
             title: 'Food Ordering Website',
-            description: 'HTML5, CSS3, Sass, Javascript, JQuery, PHP'
+            description: 'HTML5, CSS3, Sass, Javascript, JQuery, PHP',
+            link: 'https://github.com/lunghile-suc/Local-Munchies'
         },
         {
-            image: '/images/projectImg-1.jpg',
-            title: 'Food Ordering Website',
-            description: 'HTML5, CSS3, Sass, Javascript, JQuery, PHP'
+            image: '/images/portfolioImg.jpg',
+            title: 'Portfolio',
+            description: 'Next.js, Sass',
+            link: 'https://hopeful-austin-6f43cd.netlify.app/'
         }
     ]
 }

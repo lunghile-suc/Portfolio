@@ -13,7 +13,7 @@ const Projects = () => {
                 <div className={style.projectsCards}>
                     {projects.projectsInfo.slice(0, 3).map((info, i) => {
                         return (
-                            <a href="" target="_blank" key={i}>
+                            <a href={info.link} target="_blank" key={i}>
                                 <div className={style.projectCard}>
                                     <img src={info.image} alt="project-img"></img>
                                     <div className={style.cardContent}>
