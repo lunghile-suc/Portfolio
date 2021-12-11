@@ -6,6 +6,13 @@
     background-image: linear-gradient(to top left, #1173EF , #11B6EF);
 }
 
+.servicesSvg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .items{
     display: grid;
     align-items: center;

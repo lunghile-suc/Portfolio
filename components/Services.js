@@ -1,6 +1,5 @@
 import { services } from "../content";
 import style from '../styles/Services.module.scss';
-import Image from "next/dist/client/image";
 import DisplayLottie from '../components/DisplayLottie';
 import ServicesLottie from '../public/lottie_files/services-lottie.json';
 
