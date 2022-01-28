@@ -31,74 +31,33 @@
 
 .projectCard{
     position: relative;
-    display: flex;
-    align-items: flex-end;
     border-radius: 10px;
-    padding: 1rem;
-    object-fit: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 25rem;
+    border: 1px solid #1173EF;
+    height: 27rem;
     cursor: pointer;
     overflow: hidden;
 
     img{
-        position: absolute;
-        object-fit: cover;
-        top: 0;
-        left: 0;
         width: 100%;
-        height: 100%;
+        height: 180px;
     }
 
     .cardContent{
-        z-index: 1;
-
-        .overlay{
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            background-image: linear-gradient(to bottom left, transparent , #000000);
-            opacity: 1;
-            z-index: -1;
-
-            @include mediaQuery(992px){
-                top: 100%;
-            }
-        }
+        position: relative;
+        padding: 1rem;
 
         h1{
             font-size: 1.3rem;
-            
-            @include mediaQuery(992px){
-                color: transparent;
-            }
         }
 
         p{
-            font-size: 0.8rem;
-
-            @include mediaQuery(992px){
-                color: transparent;
-            }
+            font-size: .9rem;
+            margin-bottom: 2rem;
         }
+
     }
 }
 
-@include mediaQuery(992px){
-    .projectCard:hover .overlay{
-        top: 0;
-        transition: 250ms ease-in;
-    }
-    
-    .projectCard:hover .overlay, .projectCard:hover h1, .projectCard:hover p{
-        color: #f2f2f2;
-        transition: 250ms ease-in;
-    }
-}
 
 .moreProjects{
     display: flex;

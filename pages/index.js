@@ -22,7 +22,6 @@ export async function getStaticProps(){
 }
 
 export default function Home({projects}) {
-  console.log(projects)
   return (
     <div>
       <Head>

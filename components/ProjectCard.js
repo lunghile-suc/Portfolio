@@ -1,4 +1,5 @@
 import style from '../styles/Projects.module.scss';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
     return (
@@ -9,6 +10,7 @@ const ProjectCard = ({ project }) => {
                     <div className={style.overlay}></div>
                     <h1>{project.fields.title}</h1>
                     <p>{project.fields.descripition}</p>
+                    <a href={project.fields.projectLink} target="_blank" rel="noreferrer"><FaExternalLinkAlt className={style.externalLink}/></a>
                 </div>
             </div>
         </a>
